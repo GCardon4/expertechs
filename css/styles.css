@@ -1,3 +1,6 @@
+.text-shadow {
+	text-shadow: 0 2px 8px rgba(0,0,0,0.45);
+}
 /* == Estilos Corporativos ==*/
 
 :root{
@@ -23,7 +26,7 @@ body{
 }
 
 .hero-bg {
-	background: url('/images/hero-01.jpg') center center/cover no-repeat;
+	background: url('../images/hero-01.jpg') center center/cover no-repeat;
 	width: 100%;
 	min-height: 400px;
 	height: auto;
@@ -46,8 +49,29 @@ body{
 	transform: none;
 }
 
-.footer{
+.footer {
 	border-top: 1px solid rgba(255,255,255,0.05);
+	
+}
+.footer-overlay {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	background: rgba(23,51,84,0.65);
+	z-index: 1;
+}
+.footer .container {
+	position: relative;
+	z-index: 2;
+}
+
+.contacto{
+    position: relative;
+	background: url('../images/footer-bground.png') center center/cover no-repeat;
+}
+
+.contact-form-bg {
+	background: rgba(255,255,255,0.85);
+	box-shadow: 0 2px 16px rgba(23,51,84,0.08);
 }
 
 /* WhatsApp floating button */
