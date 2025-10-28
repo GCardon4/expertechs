@@ -88,9 +88,9 @@ Acompañamos a nuestros clientes desde el diseño del proyecto hasta la implemen
 ---
 
 ## 📬 Contacto
-**Correo:** contacto@empresa.com  
-**Teléfono:** +57 000 000 0000  
-**Ubicación:** Rionegro, Antioquia – Colombia  
+**Correo:** info@expertechsoriente.com
+**Teléfono:** +57 301 248 8704
+**Ubicación:** Rionegro, Antioquia – Colombia
 
 ---
 

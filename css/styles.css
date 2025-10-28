@@ -22,8 +22,28 @@ body{
 	border-color: var(--color-tercero);
 }
 
-.hero{
-	background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+.hero-bg {
+	background: url('/images/hero-01.jpg') center center/cover no-repeat;
+	width: 100%;
+	min-height: 400px;
+	height: auto;
+	position: relative;
+}
+.hero-overlay {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	background: linear-gradient(180deg, rgba(23,51,84,0.45) 0%, rgba(255,255,255,0.85) 100%);
+	z-index: 1;
+}
+/* Animación lazy-fade para imágenes */
+.lazy-fade {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.8s cubic-bezier(.4,0,.2,1), transform 0.8s cubic-bezier(.4,0,.2,1);
+}
+.lazy-fade.loaded {
+	opacity: 1;
+	transform: none;
 }
 
 .footer{
@@ -56,8 +76,13 @@ body{
 .whatsapp-icon{filter: drop-shadow(0 1px 0 rgba(0,0,0,0.06));}
 
 /* Responsive tweaks */
+
+.text-tercero{ color: var(--color-tercero); }
+
 @media (max-width: 576px){
-	.hero img{ max-height: 180px; }
+	.hero-bg{ background-position: top center; }
+	.hero img{ max-height: 140px; }
+	.card-img-top{ max-height: 120px; object-fit: cover; }
 }
 
 /* small utility */
