@@ -1,0 +1,64 @@
+/* == Estilos Corporativos ==*/
+
+:root{
+	--color-primario: #173354; /* Primario */
+	--color-secundario: #174F80; /* Secundario */
+	--color-tercero: #1D70B7; /* Tercero */
+	--color-cuarto: #4D4D4D; /* Cuarto */
+}
+
+body{
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	color: var(--color-cuarto);
+	background-color: #fff;
+}
+
+.bg-primary{
+	background-color: var(--color-primario) !important;
+}
+
+.btn-primary{
+	background-color: var(--color-tercero);
+	border-color: var(--color-tercero);
+}
+
+.hero{
+	background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+}
+
+.footer{
+	border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+/* WhatsApp floating button */
+.whatsapp-float{
+	position: fixed;
+	width: 64px;
+	height: 64px;
+	bottom: 20px;
+	right: 20px;
+	background-color: #25D366;
+	color: #fff;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 6px 18px rgba(37,211,102,0.35);
+	z-index: 1050;
+	text-decoration: none;
+}
+
+.whatsapp-float:hover{
+	transform: translateY(-3px);
+	transition: .15s ease;
+}
+
+.whatsapp-icon{filter: drop-shadow(0 1px 0 rgba(0,0,0,0.06));}
+
+/* Responsive tweaks */
+@media (max-width: 576px){
+	.hero img{ max-height: 180px; }
+}
+
+/* small utility */
+.small{opacity: .85}
