@@ -2,56 +2,56 @@
 // Generated manifest is embedded here (created from server-side filesystem)
 const GALLERY_MANIFEST = {
   "alarmas": [
-    "/images/gallery/alarmas/image_01.jpg"
+    { "src": "/images/gallery/alarmas/image_01.jpg", "caption": "Alarmas" }
   ],
   "camaras": [
-    "/images/gallery/camaras/image_01.jpg",
-    "/images/gallery/camaras/image_02.jpg",
-    "/images/gallery/camaras/image_03.jpg",
-    "/images/gallery/camaras/image_04.jpg",
-    "/images/gallery/camaras/image_05.jpg",
-    "/images/gallery/camaras/image_06.jpg",
-    "/images/gallery/camaras/image_07.jpg",
-    "/images/gallery/camaras/image_08.jpg",
-    "/images/gallery/camaras/image_09.jpg",
-    "/images/gallery/camaras/image_10.jpg",
-    "/images/gallery/camaras/image_11.jpg",
-    "/images/gallery/camaras/image_12.jpg",
-    "/images/gallery/camaras/image_13.jpg",
-    "/images/gallery/camaras/image_14.jpg"
+    { "src": "/images/gallery/camaras/image_01.jpg", "caption": "Cámaras de Seguridad" },
+    { "src": "/images/gallery/camaras/image_02.jpg", "caption": "Centro de Monitoreo" },
+    { "src": "/images/gallery/camaras/image_03.jpg", "caption": "Cámaras de Seguridad" },
+    { "src": "/images/gallery/camaras/image_04.jpg", "caption": "Cámaras de Seguridad" },
+    { "src": "/images/gallery/camaras/image_05.jpg", "caption": "Centro de Monitoreo" },
+    { "src": "/images/gallery/camaras/image_06.jpg", "caption": "Cámaras de Seguridad" },
+    { "src": "/images/gallery/camaras/image_07.jpg", "caption": "Cámaras de Seguridad" },
+    { "src": "/images/gallery/camaras/image_08.jpg", "caption": "Centro de Monitoreo" },
+    { "src": "/images/gallery/camaras/image_09.jpg", "caption": "Cámaras de Seguridad" },
+    { "src": "/images/gallery/camaras/image_10.jpg", "caption": "Cámaras de Seguridad" },
+    { "src": "/images/gallery/camaras/image_11.jpg", "caption": "Centro de Monitoreo" },
+    { "src": "/images/gallery/camaras/image_12.jpg", "caption": "Cámaras de Seguridad" },
+    { "src": "/images/gallery/camaras/image_13.jpg", "caption": "Cámaras de Seguridad" },
+    { "src": "/images/gallery/camaras/image_14.jpg", "caption": "Cámaras de Seguridad" }
   ],
   "conectividad": [
-    "/images/gallery/conectividad/image_01.jpg",
-    "/images/gallery/conectividad/image_02.jpg",
-    "/images/gallery/conectividad/image_03.jpg"
+    { "src": "/images/gallery/conectividad/image_01.jpg", "caption": "Conectividad" },
+    { "src": "/images/gallery/conectividad/image_02.jpg", "caption": "Conectividad" },
+    { "src": "/images/gallery/conectividad/image_03.jpg", "caption": "Conectividad" }
   ],
   "domotica": [],
   "fibra": [
-    "/images/gallery/fibra/image_01.jpg",
-    "/images/gallery/fibra/image_02.jpg",
-    "/images/gallery/fibra/image_03.jpg",
-    "/images/gallery/fibra/image_04.jpg",
-    "/images/gallery/fibra/image_05.jpg"
+    { "src": "/images/gallery/fibra/image_01.jpg", "caption": "Fibra Óptica" },
+    { "src": "/images/gallery/fibra/image_02.jpg", "caption": "Fibra Óptica" },
+    { "src": "/images/gallery/fibra/image_03.jpg", "caption": "Fibra Óptica" },
+    { "src": "/images/gallery/fibra/image_04.jpg", "caption": "Fibra Óptica" },
+    { "src": "/images/gallery/fibra/image_05.jpg", "caption": "Fibra Óptica" }
   ],
   "redes": [
-    "/images/gallery/redes/image_01.jpg",
-    "/images/gallery/redes/image_02.jpg",
-    "/images/gallery/redes/image_03.jpg",
-    "/images/gallery/redes/image_04.jpg"
+    { "src": "/images/gallery/redes/image_01.jpg", "caption": "Redes" },
+    { "src": "/images/gallery/redes/image_02.jpg", "caption": "Redes" },
+    { "src": "/images/gallery/redes/image_03.jpg", "caption": "Redes" },
+    { "src": "/images/gallery/redes/image_04.jpg", "caption": "Redes" }
   ],
   "video": [
-    "/images/gallery/video/image_01.jpg",
-    "/images/gallery/video/image_02.jpg",
-    "/images/gallery/video/image_03.jpg",
-    "/images/gallery/video/image_04.jpg",
-    "/images/gallery/video/image_05.jpg",
-    "/images/gallery/video/image_06.jpg",
-    "/images/gallery/video/image_07.jpg",
-    "/images/gallery/video/image_08.jpg",
-    "/images/gallery/video/image_09.jpg",
-    "/images/gallery/video/image_10.jpg",
-    "/images/gallery/video/image_11.jpg",
-    "/images/gallery/video/image_12.jpg"
+    { "src": "/images/gallery/video/image_01.jpg", "caption": "Video Portero" },
+    { "src": "/images/gallery/video/image_02.jpg", "caption": "Video Portero" },
+    { "src": "/images/gallery/video/image_03.jpg", "caption": "Video Portero" },
+    { "src": "/images/gallery/video/image_04.jpg", "caption": "Video Portero" },
+    { "src": "/images/gallery/video/image_05.jpg", "caption": "Video Portero" },
+    { "src": "/images/gallery/video/image_06.jpg", "caption": "Video Portero" },
+    { "src": "/images/gallery/video/image_07.jpg", "caption": "Video Portero" },
+    { "src": "/images/gallery/video/image_08.jpg", "caption": "Control de Acceso" },
+    { "src": "/images/gallery/video/image_09.jpg", "caption": "Control de Acceso" },
+    { "src": "/images/gallery/video/image_10.jpg", "caption": "Video Portero" },
+    { "src": "/images/gallery/video/image_11.jpg", "caption": "Video Portero" },
+    { "src": "/images/gallery/video/image_12.jpg", "caption": "Video Portero" }
   ]
 };
 
@@ -72,7 +72,13 @@ function renderGallery(filter){
   // build a flat list of items with category info
   const items = [];
   Object.keys(GALLERY_MANIFEST).forEach(cat => {
-    GALLERY_MANIFEST[cat].forEach(src => items.push({ src, cat }));
+    GALLERY_MANIFEST[cat].forEach(entry => {
+      if (typeof entry === 'string') {
+        items.push({ src: entry, cat, caption: null });
+      } else {
+        items.push({ src: entry.src, cat, caption: entry.caption || null });
+      }
+    });
   });
 
   const filtered = filter && filter !== 'all' ? items.filter(i => i.cat === filter) : items;
@@ -94,13 +100,14 @@ function renderGallery(filter){
 
     const img = document.createElement('img');
     img.src = it.src;
-    img.alt = `${it.cat} - ${idx+1}`;
+  img.alt = it.caption || `${it.cat} - ${idx+1}`;
     img.loading = 'lazy';
     img.className = 'img-fluid';
 
     const meta = document.createElement('div');
-    meta.className = 'meta';
-    meta.textContent = it.cat;
+  meta.className = 'meta';
+  const short = it.caption ? (it.caption.length > 40 ? it.caption.slice(0,37) + '...' : it.caption) : it.cat;
+  meta.textContent = short;
 
     div.appendChild(img);
     div.appendChild(meta);
@@ -111,7 +118,7 @@ function renderGallery(filter){
       const caption = document.getElementById('galleryModalCaption');
       modalImg.src = it.src;
       modalImg.alt = img.alt;
-      caption.textContent = `${it.cat} · ${idx+1}`;
+      caption.textContent = (it.caption ? it.caption + ' · ' : '') + it.cat + ` · ${idx+1}`;
       const modal = new bootstrap.Modal(document.getElementById('galleryModal'));
       modal.show();
     });
